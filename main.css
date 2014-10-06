@@ -1,0 +1,28 @@
+.col-md-4{
+	width: 33.33333333%;
+}
+
+.col-md-offset-8{
+	margin-left: 66.66666667%;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.neighborhood-guides{
+	background-color: #efefef;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: "SimHei";
+}
+
+a:hover{
+	color: #00ffff;
+}
