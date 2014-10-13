@@ -1,0 +1,56 @@
+* {
+margin:0;
+padding:0;
+}
+body {
+	background-image: url(../images/002.jpg)  ;
+}
+.logo {
+	margin:30px 30% 0 30%;
+	text-align:center;
+}
+
+/* for nav bar style */
+.nav {
+width:8%;
+margin-left:100px;
+padding-top:100px;
+}
+.nav ul {
+	list-style:none;
+}
+.nav li {
+	text-align:center;
+	height:50px;
+	margin-top:10px;
+	display:block;
+	border-bottom:1px solid #03C;
+	
+}
+.nav a {
+	text-decoration:none;
+	color:#966;
+}
+
+.active .more {
+	display:none;
+}
+.active:hover .more {
+	display:block;
+}
+	
+/* for footer style */
+.footer {
+	display:block;
+	margin-top:450px;
+}
+.footer a {
+	text-decoration:none;
+}
+.footer li {
+	display:inline;
+	padding-left:20px;
+}
+#copyright {
+	padding-right:200px;
+}
